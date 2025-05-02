@@ -21,7 +21,7 @@ export default function Programs() {
   ];
 
   return (
-    <section id='program' className='w-full mt-8 md:mt-24 text-center'>
+    <section id='program' className='w-full mt-32 md:mt-48 text-center'>
       <span className='text-black text-lg md:text-2xl font-bold'>
         Program Spesial
       </span>
