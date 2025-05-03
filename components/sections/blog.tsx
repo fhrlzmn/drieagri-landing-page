@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Dot } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 import BlogCard from '../blog/blog-card';
 import fetchBlogPosts, { BlogPost } from '@/data/fetch-blog-posts';

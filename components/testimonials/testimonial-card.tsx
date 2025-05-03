@@ -26,7 +26,7 @@ export default function TestimonialCard({
       </div>
       <div className='md:col-span-3 flex flex-col p-4'>
         <p className='text-lg md:text-xl text-justify text-[#686868] leading-[1.45]'>
-          "{testimonial}"
+          &quot;{testimonial}&quot;
         </p>
         <div className='flex flex-col gap-1 items-start mt-4'>
           <h4 className='text-lg md:text-xl text-primary font-bold'>{name}</h4>
