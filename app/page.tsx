@@ -14,8 +14,6 @@ export default function Home() {
       <Blog />
       <Testimonials />
       <FAQ />
-
-      <div className='min-h-screen'></div>
     </main>
   );
 }

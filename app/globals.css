@@ -9,3 +9,11 @@
 body {
   font-family: 'Poppins', Helvetica, sans-serif;
 }
+
+@utility clip-footer-mobile {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 50% 10%);
+}
+
+@utility clip-footer-desktop {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 50% 20%);
+}
