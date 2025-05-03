@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import MobileMenuButton from './header/mobile-menu-button';
 import MobileMenu from './header/mobile-menu';
@@ -17,13 +16,26 @@ const activeLinkClass =
   'text-primary underline underline-offset-4 decoration-2 decoration-primary';
 
 export default function Header() {
-  const searchParams = useSearchParams();
   const [activeLink, setActiveLink] = useState<string>('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    setActiveLink(window.location.hash);
-  }, [searchParams]);
+    // Set initial active link based on hash
+    const handleHashChange = () => {
+      setActiveLink(window.location.hash);
+    };
+
+    // Set initial state
+    handleHashChange();
+
+    // Add event listener for hash changes
+    window.addEventListener('hashchange', handleHashChange);
+
+    // Clean up event listener
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, [activeLink]);
 
   return (
     <header className='sticky top-0 z-50 bg-white shadow-md'>
