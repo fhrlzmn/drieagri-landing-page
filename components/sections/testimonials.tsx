@@ -27,7 +27,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section id='blog' className='relative text-center mt-32'>
+    <section id='testimonial' className='relative text-center mt-32'>
       <div
         className='bg-secondary p-12 pb-48'
         style={{
