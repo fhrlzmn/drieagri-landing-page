@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className='w-full bg-[url(/assets/hero.png)] bg-cover py-42 text-center md:text-start'>
+    <section className='w-full bg-primary md:bg-[url(/assets/hero.webp)] bg-cover py-42 text-center md:text-start'>
       <div className='md:w-2/3 text-white px-12 md:px-24'>
         <h2 className='text-4xl md:text-5xl font-bold leading-[1.45]'>
           Tumbuh bersama lebih dari 1.000 Petani dari 200 kota di Indonesia

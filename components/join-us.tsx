@@ -55,7 +55,7 @@ export default function JoinUs() {
         </div>
       </div>
 
-      <div className='w-screen relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw] bg-[url("/assets/join-us-image.png")] bg-cover h-64 md:h-256 -mb-48 md:-mb-128 mt-12' />
+      <div className='w-screen relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw] bg-[url("/assets/join-us-image.webp")] bg-cover h-64 md:h-256 -mb-48 md:-mb-128 mt-12' />
     </section>
   );
 }

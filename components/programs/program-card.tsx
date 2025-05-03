@@ -9,7 +9,7 @@ export default function ProgramCard({ image, description }: Props) {
   return (
     <div className='flex flex-col items-center gap-12 bg-linear-to-t from-primary to-primary/10 w-full rounded-xl shadow-lg px-12 md:px-8 py-12'>
       <Image
-        src={`/assets/programs/${image}.png`}
+        src={`/assets/programs/${image}.webp`}
         alt={image}
         width={200}
         height={200}

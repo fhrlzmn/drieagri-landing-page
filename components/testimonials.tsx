@@ -60,7 +60,7 @@ export default function Testimonials() {
             name={showedTestimonial[0]?.name || 'Name'}
             role={showedTestimonial[0]?.role || 'Role'}
             imageUrl={
-              showedTestimonial[0]?.imageUrl || '/assets/testimonials/alex.jpg'
+              showedTestimonial[0]?.imageUrl || '/assets/testimonials/alex.webp'
             }
             testimonial={showedTestimonial[0]?.testimonial || 'Testimonial'}
           />

@@ -15,7 +15,7 @@ export default function Partner() {
           className='absolute -top-14 -left-4 -z-1'
         />
         <Image
-          src='/assets/person.png'
+          src='/assets/person.webp'
           alt='Petani'
           height={673}
           width={498}
@@ -35,7 +35,7 @@ export default function Partner() {
           {Array.from({ length: 9 }, (_, i) => (
             <div key={`partner-${i}`} className='max-w-40 grayscale'>
               <Image
-                src={`/assets/partners/${i}.png`}
+                src={`/assets/partners/${i}.webp`}
                 alt={`Partner ${i}`}
                 width={200}
                 height={200}
