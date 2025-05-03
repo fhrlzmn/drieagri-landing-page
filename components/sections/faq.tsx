@@ -36,7 +36,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section id='program' className='w-full mt-32 md:mt-48 text-center'>
+    <section id='bantuan' className='w-full mt-32 md:mt-48 text-center'>
       <span className='text-black text-lg md:text-2xl font-bold'>
         Frequently Asked Questions
       </span>
