@@ -1,4 +1,5 @@
 import Blog from '@/components/sections/blog';
+import FAQ from '@/components/sections/faq';
 import Hero from '@/components/sections/hero';
 import Partner from '@/components/sections/partner';
 import Programs from '@/components/sections/programs';
@@ -12,6 +13,7 @@ export default function Home() {
       <Partner />
       <Blog />
       <Testimonials />
+      <FAQ />
 
       <div className='min-h-screen'></div>
     </main>
