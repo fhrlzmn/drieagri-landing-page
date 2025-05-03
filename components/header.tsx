@@ -42,7 +42,7 @@ export default function Header() {
       <div className='container mx-auto flex items-center justify-between py-4 px-4 md:px-24 font-semibold'>
         <div className='flex items-center gap-2'>
           <Image
-            src='/logo.svg'
+            src='/assets/logo.svg'
             width={80}
             height={80}
             alt='DrieAgrie Logo'

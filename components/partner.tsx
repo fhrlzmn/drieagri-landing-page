@@ -8,14 +8,14 @@ export default function Partner() {
     >
       <div className='hidden relative md:flex justify-center px-8'>
         <Image
-          src='/circles.svg'
+          src='/assets/circles.svg'
           alt='Circles'
           height={147}
           width={191}
           className='absolute -top-14 -left-4 -z-1'
         />
         <Image
-          src='/person.png'
+          src='/assets/person.png'
           alt='Petani'
           height={673}
           width={498}
@@ -35,8 +35,8 @@ export default function Partner() {
           {Array.from({ length: 9 }, (_, i) => (
             <div key={`partner-${i}`} className='max-w-40 grayscale'>
               <Image
-                src={`/partners/${i}.png`}
-                alt={`Parnet ${i}`}
+                src={`/assets/partners/${i}.png`}
+                alt={`Partner ${i}`}
                 width={200}
                 height={200}
               />

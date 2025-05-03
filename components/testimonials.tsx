@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-import TestimonialCard from '../testimonials/testimonial-card';
+import TestimonialCard from './testimonials/testimonial-card';
 import fetchTestimonials, { Testimonial } from '@/data/fetch-testimonials';
 
 const TESTI_PER_PAGE = 1;
@@ -60,7 +60,7 @@ export default function Testimonials() {
             name={showedTestimonial[0]?.name || 'Name'}
             role={showedTestimonial[0]?.role || 'Role'}
             imageUrl={
-              showedTestimonial[0]?.imageUrl || '/testimonials/alex.jpg'
+              showedTestimonial[0]?.imageUrl || '/assets/testimonials/alex.jpg'
             }
             testimonial={showedTestimonial[0]?.testimonial || 'Testimonial'}
           />

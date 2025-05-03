@@ -1,10 +1,10 @@
-import Blog from '@/components/sections/blog';
-import FAQ from '@/components/sections/faq';
-import Hero from '@/components/sections/hero';
-import JoinUs from '@/components/sections/join-us';
-import Partner from '@/components/sections/partner';
-import Programs from '@/components/sections/programs';
-import Testimonials from '@/components/sections/testimonials';
+import Blog from '@/components/blog';
+import FAQ from '@/components/faq';
+import Hero from '@/components/hero';
+import JoinUs from '@/components/join-us';
+import Partner from '@/components/partner';
+import Programs from '@/components/programs';
+import Testimonials from '@/components/testimonials';
 
 export default function Home() {
   return (

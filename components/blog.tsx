@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-import BlogCard from '../blog/blog-card';
+import BlogCard from './blog/blog-card';
 import fetchBlogPosts, { BlogPost } from '@/data/fetch-blog-posts';
 
 const POSTS_PER_PAGE = 3;

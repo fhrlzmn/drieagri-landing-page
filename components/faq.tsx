@@ -45,7 +45,7 @@ export default function FAQ() {
       </h2>
       <span className='block h-1 w-full max-w-64 md:max-w-192 bg-secondary mt-6 mx-auto' />
       <div className='grid md:grid-cols-3 w-full gap-4 mt-16 px-12 md:px-24'>
-        <div className='hidden md:block md:col-span-1 rounded-lg overflow-hidden bg-[url("/faq.jpg")] bg-cover' />
+        <div className='hidden md:block md:col-span-1 rounded-lg overflow-hidden bg-[url("/assets/faq.jpg")] bg-cover' />
         <div className='md:col-span-2 flex flex-col bg-white rounded-lg border-2 border-primary'>
           {faqs.map((faq, index) => (
             <div key={index} className='text-start'>

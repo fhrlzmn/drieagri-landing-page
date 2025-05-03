@@ -7,7 +7,7 @@ export default function Footer() {
       <div className='container mx-auto p-8 md:px-24'>
         <div className='flex items-center gap-4'>
           <Image
-            src='/logo.svg'
+            src='/assets/logo.svg'
             width={80}
             height={80}
             alt='DrieAgrie Logo'
@@ -70,7 +70,7 @@ export default function Footer() {
             <div className='flex gap-2'>
               <Link href='#'>
                 <Image
-                  src='/socialmedia/instagram.svg'
+                  src='/assets/socialmedia/instagram.svg'
                   alt='Instagram'
                   width={32}
                   height={32}
@@ -78,7 +78,7 @@ export default function Footer() {
               </Link>
               <Link href='#'>
                 <Image
-                  src='/socialmedia/tiktok.svg'
+                  src='/assets/socialmedia/tiktok.svg'
                   alt='Tiktok'
                   width={32}
                   height={32}
@@ -86,7 +86,7 @@ export default function Footer() {
               </Link>
               <Link href='#'>
                 <Image
-                  src='/socialmedia/linkedin.svg'
+                  src='/assets/socialmedia/linkedin.svg'
                   alt='LinkedIn'
                   width={32}
                   height={32}
